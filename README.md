@@ -11,6 +11,8 @@ Each win is worth 3 points, each tie is worth 1 point, and a loss does not give 
 NodeJS + TypeScript
 
 ## Getting started
+* RUN:`npm i` or `npm install`, like below
+
 go forward inside the root of the application:
 ```console
 \workspace\eng-premier-leage-challenge: npm i

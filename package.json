@@ -1,0 +1,32 @@
+{
+  "name": "eng-premier-leage-challenge",
+  "version": "1.0.0",
+  "description": "The English Premier League is the top-tier league of soccer (football) teams, which consists of 20 teams. Every year,\r each team in the league plays 38 matches (2 matches against every other team).\r At the end of the season, the team with the most points wins the Premier League title. The bottom three teams are\r relegated to the Championship League, which is the league one tier below the Premier League. The top 4 teams are\r eligible to play in the UEFA Champions League the next season, and teams ranked 5 and 6 are eligible to play in the\r Europa League.\r Each win is worth 3 points, each tie is worth 1 point, and a loss does not give a team any points.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuspitz/eng-premier-leage-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcuspitz/eng-premier-leage-challenge/issues"
+  },
+  "homepage": "https://github.com/marcuspitz/eng-premier-leage-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.17",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
